@@ -3,19 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		240F15D5578A65DA83EE87F1 /* Pods_Hitowooboeruapuri.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 818F8FCB529D6E9BD7287003 /* Pods_Hitowooboeruapuri.framework */; };
+		6708C2DF24E4E22C0010897F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6708C2DE24E4E22C0010897F /* GoogleService-Info.plist */; };
+		671651BD251E0A1400675BC5 /* hito.png in Resources */ = {isa = PBXBuildFile; fileRef = 671651BC251E0A1300675BC5 /* hito.png */; };
+		671651BF252F807B00675BC5 /* ああ.png in Resources */ = {isa = PBXBuildFile; fileRef = 671651BE252F807B00675BC5 /* ああ.png */; };
+		671651C1252F808500675BC5 /* いい.png in Resources */ = {isa = PBXBuildFile; fileRef = 671651C0252F808400675BC5 /* いい.png */; };
+		671651C3252F809900675BC5 /* うう.png in Resources */ = {isa = PBXBuildFile; fileRef = 671651C2252F809900675BC5 /* うう.png */; };
+		671651C5252F810500675BC5 /* おお.png in Resources */ = {isa = PBXBuildFile; fileRef = 671651C4252F810500675BC5 /* おお.png */; };
+		671651C7252F811D00675BC5 /* かか口.png in Resources */ = {isa = PBXBuildFile; fileRef = 671651C6252F811C00675BC5 /* かか口.png */; };
+		671651C9252F813D00675BC5 /* ee.png in Resources */ = {isa = PBXBuildFile; fileRef = 671651C8252F813D00675BC5 /* ee.png */; };
 		673DE44E24D4261000A64149 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673DE44D24D4261000A64149 /* AppDelegate.swift */; };
 		673DE45024D4261000A64149 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673DE44F24D4261000A64149 /* SceneDelegate.swift */; };
 		673DE45224D4261000A64149 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673DE45124D4261000A64149 /* ViewController.swift */; };
 		673DE45524D4261000A64149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 673DE45324D4261000A64149 /* Main.storyboard */; };
 		673DE45724D4261C00A64149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 673DE45624D4261C00A64149 /* Assets.xcassets */; };
 		673DE45A24D4261C00A64149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 673DE45824D4261C00A64149 /* LaunchScreen.storyboard */; };
+		6776705524E6762300714790 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6776705424E6762300714790 /* LoginViewController.swift */; };
+		6776705724E7C0D400714790 /* _i_icon_14440_icon_144400_256.png in Resources */ = {isa = PBXBuildFile; fileRef = 6776705624E7C0D400714790 /* _i_icon_14440_icon_144400_256.png */; };
+		6776705924E7C13600714790 /* _i_icon_11477_icon_114770_256.png in Resources */ = {isa = PBXBuildFile; fileRef = 6776705824E7C13600714790 /* _i_icon_11477_icon_114770_256.png */; };
+		6776705B24E7CB0A00714790 /* hatena.png in Resources */ = {isa = PBXBuildFile; fileRef = 6776705A24E7CB0A00714790 /* hatena.png */; };
+		67849FCC24F14663000E3E96 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67849FCB24F14663000E3E96 /* ListViewController.swift */; };
+		67849FD224F913E6000E3E96 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67849FD124F913E6000E3E96 /* ListTableViewCell.swift */; };
+		67849FD4250256AC000E3E96 /* megane.png in Resources */ = {isa = PBXBuildFile; fileRef = 67849FD3250256AC000E3E96 /* megane.png */; };
+		67849FD8250B87BE000E3E96 /* アセット 18@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67849FD5250B87BC000E3E96 /* アセット 18@3x.png */; };
+		67849FD9250B87BE000E3E96 /* アセット 19@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67849FD6250B87BD000E3E96 /* アセット 19@3x.png */; };
+		67849FDA250B87BE000E3E96 /* アセット 20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67849FD7250B87BE000E3E96 /* アセット 20@3x.png */; };
+		67849FDC250B8FCA000E3E96 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67849FDB250B8FCA000E3E96 /* FaceViewController.swift */; };
+		67849FDE2514C2A0000E3E96 /* アセット 8@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67849FDD2514C29F000E3E96 /* アセット 8@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D43A3901C37238B54603C47 /* Pods-Hitowooboeruapuri.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hitowooboeruapuri.release.xcconfig"; path = "Target Support Files/Pods-Hitowooboeruapuri/Pods-Hitowooboeruapuri.release.xcconfig"; sourceTree = "<group>"; };
+		6708C2DE24E4E22C0010897F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		671651BC251E0A1300675BC5 /* hito.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hito.png; sourceTree = "<group>"; };
+		671651BE252F807B00675BC5 /* ああ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ああ.png"; sourceTree = "<group>"; };
+		671651C0252F808400675BC5 /* いい.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "いい.png"; sourceTree = "<group>"; };
+		671651C2252F809900675BC5 /* うう.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "うう.png"; sourceTree = "<group>"; };
+		671651C4252F810500675BC5 /* おお.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "おお.png"; sourceTree = "<group>"; };
+		671651C6252F811C00675BC5 /* かか口.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "かか口.png"; sourceTree = "<group>"; };
+		671651C8252F813D00675BC5 /* ee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ee.png; sourceTree = "<group>"; };
 		673DE44A24D4261000A64149 /* Hitowooboeruapuri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hitowooboeruapuri.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		673DE44D24D4261000A64149 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		673DE44F24D4261000A64149 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +54,20 @@
 		673DE45624D4261C00A64149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		673DE45924D4261C00A64149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		673DE45B24D4261C00A64149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6776705424E6762300714790 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6776705624E7C0D400714790 /* _i_icon_14440_icon_144400_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _i_icon_14440_icon_144400_256.png; sourceTree = "<group>"; };
+		6776705824E7C13600714790 /* _i_icon_11477_icon_114770_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _i_icon_11477_icon_114770_256.png; sourceTree = "<group>"; };
+		6776705A24E7CB0A00714790 /* hatena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hatena.png; sourceTree = "<group>"; };
+		67849FCB24F14663000E3E96 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		67849FD124F913E6000E3E96 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		67849FD3250256AC000E3E96 /* megane.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = megane.png; sourceTree = "<group>"; };
+		67849FD5250B87BC000E3E96 /* アセット 18@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アセット 18@3x.png"; sourceTree = "<group>"; };
+		67849FD6250B87BD000E3E96 /* アセット 19@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アセット 19@3x.png"; sourceTree = "<group>"; };
+		67849FD7250B87BE000E3E96 /* アセット 20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アセット 20@3x.png"; sourceTree = "<group>"; };
+		67849FDB250B8FCA000E3E96 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
+		67849FDD2514C29F000E3E96 /* アセット 8@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "アセット 8@3x.png"; sourceTree = "<group>"; };
+		818F8FCB529D6E9BD7287003 /* Pods_Hitowooboeruapuri.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hitowooboeruapuri.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE057B7519023698A2C9164 /* Pods-Hitowooboeruapuri.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hitowooboeruapuri.debug.xcconfig"; path = "Target Support Files/Pods-Hitowooboeruapuri/Pods-Hitowooboeruapuri.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				240F15D5578A65DA83EE87F1 /* Pods_Hitowooboeruapuri.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +87,8 @@
 			children = (
 				673DE44C24D4261000A64149 /* Hitowooboeruapuri */,
 				673DE44B24D4261000A64149 /* Products */,
+				C6475F14CD1EA32CC03448B5 /* Pods */,
+				7B2FCBBA702F62035F58908A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +105,50 @@
 			children = (
 				673DE44D24D4261000A64149 /* AppDelegate.swift */,
 				673DE44F24D4261000A64149 /* SceneDelegate.swift */,
+				6776705424E6762300714790 /* LoginViewController.swift */,
 				673DE45124D4261000A64149 /* ViewController.swift */,
+				67849FCB24F14663000E3E96 /* ListViewController.swift */,
+				67849FDB250B8FCA000E3E96 /* FaceViewController.swift */,
 				673DE45324D4261000A64149 /* Main.storyboard */,
+				671651BE252F807B00675BC5 /* ああ.png */,
+				671651C0252F808400675BC5 /* いい.png */,
+				671651C2252F809900675BC5 /* うう.png */,
+				671651C4252F810500675BC5 /* おお.png */,
+				671651C6252F811C00675BC5 /* かか口.png */,
+				671651C8252F813D00675BC5 /* ee.png */,
+				67849FDD2514C29F000E3E96 /* アセット 8@3x.png */,
+				67849FD5250B87BC000E3E96 /* アセット 18@3x.png */,
+				67849FD6250B87BD000E3E96 /* アセット 19@3x.png */,
+				67849FD7250B87BE000E3E96 /* アセット 20@3x.png */,
+				6776705624E7C0D400714790 /* _i_icon_14440_icon_144400_256.png */,
+				6776705824E7C13600714790 /* _i_icon_11477_icon_114770_256.png */,
+				671651BC251E0A1300675BC5 /* hito.png */,
+				67849FD3250256AC000E3E96 /* megane.png */,
+				6776705A24E7CB0A00714790 /* hatena.png */,
 				673DE45624D4261C00A64149 /* Assets.xcassets */,
 				673DE45824D4261C00A64149 /* LaunchScreen.storyboard */,
 				673DE45B24D4261C00A64149 /* Info.plist */,
+				6708C2DE24E4E22C0010897F /* GoogleService-Info.plist */,
+				67849FD124F913E6000E3E96 /* ListTableViewCell.swift */,
 			);
 			path = Hitowooboeruapuri;
+			sourceTree = "<group>";
+		};
+		7B2FCBBA702F62035F58908A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				818F8FCB529D6E9BD7287003 /* Pods_Hitowooboeruapuri.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6475F14CD1EA32CC03448B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAE057B7519023698A2C9164 /* Pods-Hitowooboeruapuri.debug.xcconfig */,
+				1D43A3901C37238B54603C47 /* Pods-Hitowooboeruapuri.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 673DE45E24D4261C00A64149 /* Build configuration list for PBXNativeTarget "Hitowooboeruapuri" */;
 			buildPhases = (
+				A3F1F756C66E0C15D7B84752 /* [CP] Check Pods Manifest.lock */,
 				673DE44624D4261000A64149 /* Sources */,
 				673DE44724D4261000A64149 /* Frameworks */,
 				673DE44824D4261000A64149 /* Resources */,
+				1FCB23F39595B0AAA7C403A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,21 +211,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6776705924E7C13600714790 /* _i_icon_11477_icon_114770_256.png in Resources */,
 				673DE45A24D4261C00A64149 /* LaunchScreen.storyboard in Resources */,
+				67849FD4250256AC000E3E96 /* megane.png in Resources */,
+				671651C7252F811D00675BC5 /* かか口.png in Resources */,
+				6776705724E7C0D400714790 /* _i_icon_14440_icon_144400_256.png in Resources */,
+				67849FD9250B87BE000E3E96 /* アセット 19@3x.png in Resources */,
+				671651C3252F809900675BC5 /* うう.png in Resources */,
+				671651C1252F808500675BC5 /* いい.png in Resources */,
+				67849FD8250B87BE000E3E96 /* アセット 18@3x.png in Resources */,
+				671651C9252F813D00675BC5 /* ee.png in Resources */,
+				6776705B24E7CB0A00714790 /* hatena.png in Resources */,
+				6708C2DF24E4E22C0010897F /* GoogleService-Info.plist in Resources */,
 				673DE45724D4261C00A64149 /* Assets.xcassets in Resources */,
+				671651C5252F810500675BC5 /* おお.png in Resources */,
+				671651BF252F807B00675BC5 /* ああ.png in Resources */,
 				673DE45524D4261000A64149 /* Main.storyboard in Resources */,
+				671651BD251E0A1400675BC5 /* hito.png in Resources */,
+				67849FDA250B87BE000E3E96 /* アセット 20@3x.png in Resources */,
+				67849FDE2514C2A0000E3E96 /* アセット 8@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FCB23F39595B0AAA7C403A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hitowooboeruapuri/Pods-Hitowooboeruapuri-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hitowooboeruapuri/Pods-Hitowooboeruapuri-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hitowooboeruapuri/Pods-Hitowooboeruapuri-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F1F756C66E0C15D7B84752 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hitowooboeruapuri-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		673DE44624D4261000A64149 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67849FD224F913E6000E3E96 /* ListTableViewCell.swift in Sources */,
+				67849FDC250B8FCA000E3E96 /* FaceViewController.swift in Sources */,
+				6776705524E6762300714790 /* LoginViewController.swift in Sources */,
 				673DE45224D4261000A64149 /* ViewController.swift in Sources */,
 				673DE44E24D4261000A64149 /* AppDelegate.swift in Sources */,
+				67849FCC24F14663000E3E96 /* ListViewController.swift in Sources */,
 				673DE45024D4261000A64149 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,35 +430,43 @@
 		};
 		673DE45F24D4261C00A64149 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAE057B7519023698A2C9164 /* Pods-Hitowooboeruapuri.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = 7Y7TNH97Q4;
 				INFOPLIST_FILE = Hitowooboeruapuri/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nodoka.Hitowooboeruapuri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		673DE46024D4261C00A64149 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D43A3901C37238B54603C47 /* Pods-Hitowooboeruapuri.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = 7Y7TNH97Q4;
 				INFOPLIST_FILE = Hitowooboeruapuri/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nodoka.Hitowooboeruapuri;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
